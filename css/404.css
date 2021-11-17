@@ -32,18 +32,41 @@ body {
     justify-content: center;
     align-items: center;
     height: 100%;
-    
+
     .number {
         font-size: 4rem;
         font-weight: 500;
-        
+
         + .text {
             margin: 0 0 1rem;
         }
     }
-    
+
     .text {
         font-weight: 300;
         text-align: center;
     }
 }
+
+.notfound-404 {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: -12px;
+    color: #eece1a;;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 35px;
+    transition: 0.7s;
+    text-align: center;
+  }
+
+
+  .notfound-404:hover {
+      color:white;
+
+    }
